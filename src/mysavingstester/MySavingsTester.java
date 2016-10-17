@@ -34,7 +34,7 @@ public class MySavingsTester {
             switch(choice)
             {
                 case 0: menu = false;break;
-                case 1: mySavings.viewBal();break;
+                case 1: System.out.println(mySavings.viewBal());break;
                 case 2: System.out.println("How many pennies will you add?");amount = kb.nextInt();mySavings.addPenny(amount);break;
                 case 3: System.out.println("How many nickels will you add?");amount = kb.nextInt();mySavings.addNickel(amount);break;
                 case 4: System.out.println("How many dimes will you add?");amount = kb.nextInt();mySavings.addDime(amount);break;

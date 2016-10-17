@@ -56,7 +56,7 @@ public class PiggyBank {
     
     public String viewBal()
     {
-        String output = "You have "+money+" in your piggy bank.";
+        String output = "You have $"+money+" in your piggy bank.";
         return output;
     }
     
