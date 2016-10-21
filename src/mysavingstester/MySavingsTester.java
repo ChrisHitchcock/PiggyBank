@@ -25,7 +25,7 @@ public class MySavingsTester {
         boolean menu = true;
         
         //Prompt for initial balance, and create the PiggyBank.
-        System.out.println("How much money is currently in your piggybank?");
+        System.out.println("How much money is currently in your piggybank($)?");
         Scanner kb = new Scanner(System.in);
         startBal = kb.nextDouble();
         PiggyBank mySavings = new PiggyBank(startBal);

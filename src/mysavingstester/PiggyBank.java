@@ -7,11 +7,10 @@ package mysavingstester;
 
 /**
  * This class allows the user to create a PiggyBank; they can add/remove coins to it
- * and view the balance with the respective methods; initial balance is inputted
- * <p>
+ * and view the balance with the respective methods; initial balance is inputted <p>
  * pre: N/A <br>
  * post: PiggyBank created/modified
- * @author Chris Hitchcock
+ * @author Chris Hitchcock 
  */
 public class PiggyBank {
 
